@@ -1,0 +1,23 @@
+<!-- <h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p>
+-->
+
+<div class="container">
+  <h1> <%= "Stupid Coaching" %> </h1>
+
+  <div class="border-left-0">
+   <h2> <%= @question %> </h2>
+    <p>—You</p>
+  </div>
+
+  <div class="border-left-0">
+    <%= @answer %>
+    <p>Your Coach</p>
+  </div>
+
+
+  <div>
+    <%= link_to "Ask another question", ask_path %>
+  </div>
+
+  </div>

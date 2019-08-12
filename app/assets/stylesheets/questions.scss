@@ -1,0 +1,17 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$font-stack: Helvetica, sans-serif;
+$border: 2px, solid, #D3D3D3;
+
+body {
+  font-family: $font-stack;
+  margin: auto;
+  width: 50%;
+}
+
+.field {
+  border-left: $border;
+
+}
